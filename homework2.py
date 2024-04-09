@@ -11,18 +11,18 @@
 '''
 
 name = "Felix"
-print(name)
+print('Name: ', name)
 
 age = 69
-print(age)
+print('Age: ', age)
 
 age = age + 1
-print(age)
+print('New age: ', age)
 
 is_student = True
-print(is_student)
+print('Is student: ', is_student)
 
-# Felix
-# 69
-# 70
-# True
+# Name:  Felix
+# Age:  69
+# New age:  70
+# Is student:  True

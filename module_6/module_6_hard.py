@@ -115,65 +115,7 @@ print(cube1.get_volume())
     Вам не запрещается вводить дополнительные атрибуты и методы, творите, но не переборщите!
 '''
 
-# Создаем класс фигуры
-class Shape:
-    def __init__(self, color):
-        self._color = color
-
-    def set_color(self, color):
-        self._color = color
-
-    def get_color(self):
-        return self._color
-
-# Класс Circle, наследуемый от класса Shape
-class Circle(Shape):
-    def __init__(self, color, radius):
-        super().__init__(color)
-        self._radius = radius
-    def set_radius(self, radius):
-        self._radius = radius
-    def get_radius(self):
-        return self._radius
-
-    def __len__(self):
-        return 2 * 3.1415 * self._radius
-
-# Класс Cube, наследуемый от класса Shape
-class Cube(Shape):
-    def __init__(self, color, sides):
-        super().__init__(color)
-        self._sides = sides
-    def set_sides(self, sides):
-        self._sides = sides
-    def get_sides(self):
-        return self._sides
-    def get_volume(self):
-        return self._sides ** 3
-
-# Объекты классов
-circle1 = Circle([0, 0, 0], 10)
-cube1 = Cube([0, 0, 0], 6)
-
-# Проверка на изменение цветов
-circle1.set_color([55, 66, 77])  # Изменится
-print(circle1.get_color())
-cube1.set_color([300, 70, 15])  # Не изменится
-print(cube1.get_color())
-
-# Проверка на изменение радиуса (для круга) и сторон (для куба)
-circle1.set_radius(15)  # Изменится
-print(circle1.get_radius())
-cube1.set_sides(5)  # Изменится
-print(cube1.get_sides())
-
-# Проверка периметра (круга), это и есть длина
-# print(len(circle1))
-
-# Проверка объема (куба)
-print(cube1.get_volume())
-
-
+import math
 
 class Figure:
     sides_count = 0
@@ -213,9 +155,6 @@ class Circle(Figure):
         super().__init__(color, radius)
     def get_square(self):
         return 3.14 * self.get_sides()[0] ** 2
-
-    def __len__(self):
-        return int(2 * 3.14 * self.get_sides()[0])
     def circumference(self):
         return int(2 * 3.14 * self.get_sides()[0])
 
@@ -235,16 +174,27 @@ class Cube(Figure):
 
     def __init__(self, color, *sides):
         super().__init__(color, *sides)
-
     def get_volume(self):
         return self.get_sides()[0] ** 3
 
-circle1 = Circle((200, 200, 100), 10)
+
+circle1 = Circle((200, 200, 100), 10) # (Цвет, стороны)
 cube1 = Cube((222, 35, 130), 6)
 
-# Check circumference of the circle
-print(circle1.circumference())
-print(circle1.get_square())
+# Проверка на изменение цветов:
+circle1.set_color(55, 66, 77) # Изменится
+print(circle1.get_color())
+cube1.set_color(300, 70, 15) # Не изменится
+print(cube1.get_color())
+
+# Проверка на изменение сторон:
+cube1.set_sides(5, 3, 12, 4, 5) # Не изменится
+print(cube1.get_sides())
+circle1.set_sides(15) # Изменится
+print(circle1.get_sides())
+
+# Проверка периметра (круга), это и есть длина:
+print(len(circle1))
+
+# Проверка объёма (куба):
 print(cube1.get_volume())
-# print(len(circle1))
-print(len(cube1))

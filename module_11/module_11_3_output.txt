@@ -1,0 +1,3 @@
+{'type': 'int', 'attributes': ['__abs__', '__add__', '__and__', '__bool__', '...'], 'methods': [], 'module': 'None'}
+
+Process finished with exit code 0

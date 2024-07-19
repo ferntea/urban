@@ -1,0 +1,6 @@
+...\PycharmProjects\Urban\module_14\module_14_2.py 
+https://example.com/image1.jpg
+http://example.com/image2.png
+https://example.com/image3.gif
+
+Process finished with exit code 0

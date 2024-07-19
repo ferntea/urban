@@ -1,4 +1,4 @@
-C:\Users\fernt\AppData\Local\Programs\Python\Python312\python.exe C:\Users\fernt\PycharmProjects\Urban\module_14\module_14_1.py 
+;;;\PycharmProjects\Urban\module_14\module_14_1.py 
 Winter
 Day
 

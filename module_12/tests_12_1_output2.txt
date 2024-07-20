@@ -1,0 +1,39 @@
+C:\Users\fernt\AppData\Local\Programs\Python\Python312\python.exe "C:/Program Files/JetBrains/PyCharm Community Edition 2024.1.1/plugins/python-ce/helpers/pycharm/_jb_unittest_runner.py" --path C:\Users\fernt\PycharmProjects\Urban\module_12\tests_12_1.py 
+Testing started at 23:28 ...
+Launching unittests with arguments python -m unittest C:\Users\fernt\PycharmProjects\Urban\module_12\tests_12_1.py in C:\Users\fernt\PycharmProjects\Urban\module_12
+
+
+
+Ran 3 tests in 0.011s
+
+FAILED (failures=2)
+
+
+90 != 100
+
+Expected :100
+Actual   :90
+<Click to see difference>
+
+Traceback (most recent call last):
+  File "C:\Users\fernt\PycharmProjects\Urban\module_12\tests_12_1.py", line 47, in test_run
+    self.assertEqual(runner.distance, 90)  # 2nd trial - not succeeded
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 100 != 90
+
+
+
+45 != 50
+
+Expected :50
+Actual   :45
+<Click to see difference>
+
+Traceback (most recent call last):
+  File "C:\Users\fernt\PycharmProjects\Urban\module_12\tests_12_1.py", line 40, in test_walk
+    self.assertEqual(runner.distance, 45)  # 2nd trial  not succeeded
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 50 != 45
+
+
+Process finished with exit code 1

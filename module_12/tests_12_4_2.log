@@ -1,0 +1,8 @@
+2024-07-22 16:20:16,402 - INFO - RunnerTest
+2024-07-22 16:20:16,407 - INFO - Test 2 Passed: Имя может быть только числом, передано int
+2024-07-22 16:20:16,408 - INFO - Test 3 Passed: Скорость не может быть отрицательной, сейчас -5
+2024-07-22 16:20:16,408 - INFO - Test 1 Passed: Runner created: Runner1, Speed: 5
+2024-07-22 16:20:16,408 - INFO - Test 6 Passed: Runners are equal
+2024-07-22 16:20:16,409 - INFO - Test 7 Passed: Runner name matches string
+2024-07-22 16:20:16,409 - INFO - Test 4 Passed: Runner Runner1 distance after run: 10
+2024-07-22 16:20:16,409 - INFO - Test 5 Passed: Runner Runner5 distance after walk: 5

@@ -1,0 +1,11 @@
+C:\Users\fernt\AppData\Local\Programs\Python\Python312\python.exe "C:/Program Files/JetBrains/PyCharm Community Edition 2024.1.1/plugins/python-ce/helpers/pycharm/_jb_unittest_runner.py" --path C:\Users\fernt\PycharmProjects\Urban\module_12\tests_12_4_1.py 
+Testing started at 14:37 ...
+Launching unittests with arguments python -m unittest C:\Users\fernt\PycharmProjects\Urban\module_12\tests_12_4_1.py in C:\Users\fernt\PycharmProjects\Urban\module_12
+
+
+
+Ran 1 test in 0.005s
+
+OK
+
+Process finished with exit code 0

@@ -1,0 +1,4 @@
+2024-07-22 14:37:10,746 - INFO - RunnerTest
+2024-07-22 14:37:10,751 - INFO - test_runner_exceptions
+2024-07-22 14:37:10,751 - INFO - 'test_runner_exceptions' executed successfully - ValueError raised for negative speed.
+2024-07-22 14:37:10,751 - INFO - 'test_runner_exceptions' executed successfully - TypeError raised for invalid name.

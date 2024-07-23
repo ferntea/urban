@@ -1,0 +1,5 @@
+C:\Users\fernt\AppData\Local\Programs\Python\Python39\python.exe C:\Users\fernt\PycharmProjects\module_13_2\module_13_2.py 
+Updates were skipped successfully.
+Привет! Я бот, помогающий твоему здоровью
+Введите команду /start, чтобы начать общение
+Привет! Я бот, помогающий твоему здоровью

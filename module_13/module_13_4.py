@@ -1,4 +1,4 @@
-# module_13_4 Методы отправки сообщений.
+# module_13_4 Машина состояний.
 
 '''
 Задача "Цепочка вопросов":
@@ -43,7 +43,8 @@
     Результат вычисления по формуле отправьте ответом пользователю в Telegram-бот.
     Финишируйте машину состояний методом finish().
 
-!В течение написания этих функций помните, что они асинхронны и все функции и методы должны запускаться с оператором await.
+!В течение написания этих функций помните, что они асинхронны и все функции и методы должны запускаться с оператором
+await.
 
 Пример результата выполнения программы:
 
@@ -57,15 +58,12 @@ from aiogram.contrib.fsm_storage.memory import MemoryStorage
 from aiogram.dispatcher.filters.state import State, StatesGroup
 from aiogram.dispatcher import FSMContext
 
-# Assuming API token is defined in module_13_config
 from module_13_config import API
 
-# Создание объекта бота
 bot = Bot(token=API)
 storage = MemoryStorage()
 dp = Dispatcher(bot, storage=storage)
 
-# Определение класса состояний
 class UserState(StatesGroup):
     age = State()
     growth = State()

@@ -13,13 +13,14 @@
     Используйте операторы прерывания/продолжения цикла в соответствии с условиями задачи.
 '''
 
+
 my_list = [42, 69, 322, 13, 0, 99, -5, 9, 8, 7, -6, 5]
-positives = []
+
 i = 0
 while i < len(my_list):
-    if my_list[i] < 0:
+    number = my_list[i]
+    if number < 0:
         break
-    positives.append(my_list[i])
+    elif number > 0:
+        print(number, end=" ")
     i += 1
-
-print(positives)

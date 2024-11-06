@@ -1,0 +1,11 @@
+C:\Users\fernt\PycharmProjects\Urban\module_12\tests_12_2_appendix.py 
+....
+----------------------------------------------------------------------
+Ran 4 tests in 0.000s
+
+OK
+2: {1: 'Андрей', 2: 'Ник'}
+3: {1: 'Усэйн', 2: 'Андрей', 3: 'Ник'}
+1: {1: 'Усэйн', 2: 'Ник'}
+
+Process finished with exit code 0
